@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -43,8 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
+aardvark	animals		foo		lemon
 ==========
 6. Type:
 
@@ -54,8 +53,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
-
+aardvark	animals		foo		food		lemon
 ==========
 7. Type:
 
@@ -64,8 +62,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+aardvark	animals		foo		food		lemon
 
 ==========
 8. Type:
@@ -76,8 +73,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+/Users/student/mtec1002/foo/bar/baz/qux
 ==========
 9. Type:
 
@@ -87,8 +83,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+/Users/student/mtec1002/foo/bar
 ==========
 10. Type:
 
@@ -98,8 +93,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
- 
+/Users/student/mtec1002/foo/bar/baz/qux 
 ==========
 11. Type:
 
@@ -108,8 +102,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/student/mtec1002/foo/bar/baz
 
 ==========
 12. Type:
@@ -121,8 +114,8 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
-
+total 0
+drwxr-xr-x  2 student  staff  68 Feb  4 19:54 qux
 ==========
 13. Type:
 
@@ -132,8 +125,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
+/Users/student
 ==========
 14. Type:
 
@@ -142,8 +134,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes
 
 ==========
 15. Type:
@@ -154,8 +145,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
+/Users/student
 ==========
 15. Type:
 
@@ -164,7 +154,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,14 +164,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
-
+v314-ent-005.local
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,14 +193,14 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir -p aardvark
 
 
 ==========
@@ -220,7 +209,18 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+Adlm				aardvark
+Applications			garageband
+Desktop				ipe.properties
+Documents			isus
+Downloads			karma
+Library				mtec1002
+Movies				newFoLder
+Music				pizza
+Pictures			pslog_20200109_170408.log
+Public				pymel.log
+QLData				test
+Things				xgen
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,14 +232,14 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p fpp/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 ==========
@@ -247,44 +247,44 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd /foo
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmkdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
-
+ 
+ls -l
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 28. What's a pathname?
 ----------
 
-
+a pathname is the general form of the name of a file or directory; it specifies a unique location in a file system
 
 ==========
 29. What's a directory?
 ----------
-
-
+a directory is a cataloging structure on a file system that references other files (and directories)
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/username/Downloads
